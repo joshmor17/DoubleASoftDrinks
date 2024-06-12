@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="if_Collaboration_group_people_men_user_team_users_18867841" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Collaboration_group_people_men_user_team_users_1886784.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1499167117_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1499167117_close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_6_13760091" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_6_1376009.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_6_1376009" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_6_1376009.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_dolly_1055070" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_dolly_1055070.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1499167237_cancel2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1499167237_cancel2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1499166833_icons_exit2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1499166833_icons_exit2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_User_Customers_1218712" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_User_Customers_1218712.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Facebook_UI-28_23443255" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Facebook_UI-28_23443254.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Facebook_UI-28_23443254" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Facebook_UI-28_23443253.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1499167237_cancel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1499167237_cancel1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_food-coke_2389072" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_food-coke_2389072.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="21330460_1591823237534446_1290129255_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21330460_1591823237534446_1290129255_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Facebook_UI-28_23443251" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Facebook_UI-28_2344325.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1499166809_cancel_circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1499166809_cancel_circle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1499163592_login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1499163592_login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_purchase_order_67225" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_purchase_order_67225.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Myspace_1063061" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Myspace_1063061.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_BT_truck_renault_front_905657" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_BT_truck_renault_front_905657.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Facebook_UI-28_23443253" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Facebook_UI-28_23443252.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1499174346_unlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1499174346_unlock.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_1_-_Customer_Service_2102045 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_1_-_Customer_Service_2102045 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Cashier-2_379335" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Cashier-2_379335.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_food-coke_23890721" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_food-coke_2389072.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Add_browser_new_window_1886174" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Add_browser_new_window_1886174.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_1_-_Customer_Service_2102045" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_1_-_Customer_Service_2102045.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Facebook_UI-28_2344325 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Facebook_UI-28_2344325 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1499199367_Audit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1499199367_Audit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Cashier-2_3793352" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Cashier-2_3793351.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1499167237_cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1499167237_cancel.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_5_13760121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_5_1376012.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_truck_1054949" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_truck_1054949.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_comment_edit_103762" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_comment_edit_103762.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Cashier-2_379335 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Cashier-2_379335 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_group_3185801" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_group_3185801.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1499199239_Audit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1499199239_Audit.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Collaboration_group_people_men_user_team_users_1886784" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Collaboration_group_people_men_user_team_users_1886784.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_stocks_1419129" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_stocks_1419129.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Facebook_UI-28_2344325" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Facebook_UI-28_2344325.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1499163217_Authorisation_lock_padlock_password_privacy_safe_security" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1499163217_Authorisation_lock_padlock_password_privacy_safe_security.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_printer_531905" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_printer_531905.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_food-coke_2389072 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_food-coke_2389072 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_1_-_Customer_Service_2102045 (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_1_-_Customer_Service_2102045 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_5_1376012" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_5_1376012.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_bell_294399" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_bell_294399.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1499167213_icons_exit2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1499167213_icons_exit2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_1_-_Customer_Service_2102045 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_1_-_Customer_Service_2102045 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_1_-_Customer_Service_21020451" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_1_-_Customer_Service_2102045.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_stocks_1419129 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_stocks_1419129 (1).ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_vector_65_01_473776" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_vector_65_01_473776.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1499167100_icons_exit2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1499167100_icons_exit2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="21269765_1591823230867780_913535117_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21269765_1591823230867780_913535117_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Cart_877015" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Cart_877015.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Cart_877015 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Cart_877015 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Cashier-2_3793351" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Cashier-2_379335.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_BT_printer_905556" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_BT_printer_905556.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Facebook_UI-28_23443252" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Facebook_UI-28_23443251.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_group_3185802" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_group_3185802.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_editor-floopy-dish-save-glyph_763361" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_editor-floopy-dish-save-glyph_763361.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_group_318580" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_group_318580.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Add_browser_new_window_18861741" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Add_browser_new_window_18861741.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1499163327_Account" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1499163327_Account.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_6_1376009 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_6_1376009 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_truck_10549491" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_truck_1054949.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_purchase_order_67225 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_purchase_order_67225 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

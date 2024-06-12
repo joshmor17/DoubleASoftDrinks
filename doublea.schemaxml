@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemadesigner version="6.5">
+<source>
+<database charset="latin1" collation="latin1_swedish_ci">igwt</database>
+</source>
+<canvas zoom="100">
+<tables>
+<table name="audit" view="colnames">
+<left>86</left>
+<top>43</top>
+<width>108</width>
+<height>141</height>
+<sql_create_table>CREATE TABLE `audit` (
+  `userID` int(100) DEFAULT NULL,
+  `aDate` varchar(100) DEFAULT NULL,
+  `aTime` varchar(100) DEFAULT NULL,
+  `description` varchar(100) DEFAULT NULL,
+  KEY `userID` (`userID`),
+  CONSTRAINT `audit_ibfk_1` FOREIGN KEY (`userID`) REFERENCES `users` (`userID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1</sql_create_table>
+</table>
+<table name="customers" view="colnames">
+<left>110</left>
+<top>202</top>
+<width>115</width>
+<height>141</height>
+<sql_create_table>CREATE TABLE `customers` (
+  `cID` int(100) NOT NULL,
+  `custName` varchar(100) DEFAULT NULL,
+  `custAddress` varchar(100) DEFAULT NULL,
+  `custContact` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`cID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1</sql_create_table>
+</table>
+<table name="expense" view="colnames">
+<left>827</left>
+<top>22</top>
+<width>111</width>
+<height>158</height>
+<sql_create_table>CREATE TABLE `expense` (
+  `expID` int(100) NOT NULL,
+  `expName` varchar(500) DEFAULT NULL,
+  `expAmount` varchar(500) DEFAULT NULL,
+  `expDate` varchar(100) DEFAULT NULL,
+  `expTime` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`expID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1</sql_create_table>
+</table>
+<table name="products" view="colnames">
+<left>679</left>
+<top>272</top>
+<width>108</width>
+<height>175</height>
+<sql_create_table>CREATE TABLE `products` (
+  `prodID` int(100) NOT NULL,
+  `prodName` varchar(100) DEFAULT NULL,
+  `description` varchar(100) DEFAULT NULL,
+  `price` varchar(100) DEFAULT NULL,
+  `deposit` varchar(100) DEFAULT NULL,
+  `category` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`prodID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1</sql_create_table>
+</table>
+<table name="stocks" view="colnames">
+<left>524</left>
+<top>20</top>
+<width>131</width>
+<height>175</height>
+<sql_create_table>CREATE TABLE `stocks` (
+  `stockID` int(100) NOT NULL,
+  `prodID` int(100) DEFAULT NULL,
+  `quantity` varchar(100) DEFAULT NULL,
+  `stockDate` varchar(100) DEFAULT NULL,
+  `stockTime` varchar(100) DEFAULT NULL,
+  `stockDelivered` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`stockID`),
+  KEY `prodID` (`prodID`),
+  CONSTRAINT `stocks_ibfk_1` FOREIGN KEY (`prodID`) REFERENCES `products` (`prodID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1</sql_create_table>
+</table>
+<table name="supplier" view="colnames">
+<left>692</left>
+<top>18</top>
+<width>119</width>
+<height>141</height>
+<sql_create_table>CREATE TABLE `supplier` (
+  `sID` int(100) NOT NULL,
+  `suppName` varchar(100) DEFAULT NULL,
+  `suppAddress` varchar(100) DEFAULT NULL,
+  `suppContact` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`sID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1</sql_create_table>
+</table>
+<table name="transactionss" view="colnames">
+<left>396</left>
+<top>218</top>
+<width>118</width>
+<height>209</height>
+<sql_create_table>CREATE TABLE `transactionss` (
+  `transID` int(100) NOT NULL,
+  `cID` int(100) DEFAULT NULL,
+  `userID` int(100) DEFAULT NULL,
+  `transDate` varchar(100) DEFAULT NULL,
+  `transTime` varchar(100) DEFAULT NULL,
+  `boughtItems` varchar(500) DEFAULT NULL,
+  `totalCost` double DEFAULT NULL,
+  `status` varchar(100) DEFAULT NULL,
+  KEY `cID` (`cID`),
+  KEY `userID` (`userID`),
+  CONSTRAINT `transactionss_ibfk_1` FOREIGN KEY (`cID`) REFERENCES `customers` (`cID`),
+  CONSTRAINT `transactionss_ibfk_3` FOREIGN KEY (`userID`) REFERENCES `users` (`userID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1</sql_create_table>
+</table>
+<table name="users" view="colnames">
+<left>258</left>
+<top>27</top>
+<width>108</width>
+<height>158</height>
+<sql_create_table>CREATE TABLE `users` (
+  `userID` int(100) NOT NULL,
+  `name` varchar(100) DEFAULT NULL,
+  `password` varchar(100) DEFAULT NULL,
+  `status` varchar(100) DEFAULT NULL,
+  `description` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`userID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1</sql_create_table>
+</table>
+</tables>
+</canvas>
+</schemadesigner>
